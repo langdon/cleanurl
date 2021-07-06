@@ -1,0 +1,12 @@
+name: cleanurl
+namespace: ""
+runtime: python
+image: quay.io/langdon/cleanurl:latest
+imageDigest: sha256:8fa20ca0f7887577ea15dc3fee6b5f4104042f274fc2f04e6911b80b6ea96f55
+builder: quay.io/boson/faas-python-builder:v0.8.3
+builderMap:
+  default: quay.io/boson/faas-python-builder:v0.8.3
+volumes: []
+envs: []
+annotations: {}
+options: {}
